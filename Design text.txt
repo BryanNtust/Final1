@@ -1,0 +1,7 @@
+sql 新增Money
+
+signup-check.php 54
+$sql2 = "INSERT INTO users(user_name, password, name, money) VALUES('$uname', '$pass', '$name', 99999)";
+
+login.php 38
+header("Location: home.php");
